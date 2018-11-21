@@ -1,0 +1,187 @@
+html{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+section{
+    position: relative;
+    margin: 0;
+    padding: 1rem;
+}
+
+.nav{
+  color: white;
+  background-color: #000000;   
+  background: transparent;
+  height: 40px;
+  width:auto;
+  position:fixed;
+  z-index: 100;
+
+}
+
+#nav_me{
+    font-size: 25px;
+    padding-right: 20px; 
+    padding-left: 20px; 
+}
+
+#nav_ed{
+    font-size: 25px;
+}
+
+#nav_sk{
+    padding-left: 950px; 
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+#nav_wk{
+    font-size: 25px;
+}
+
+#me{
+    background-image: url("bg0.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    border: none;
+}
+
+#edu{
+    background-color: #212121;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#data{
+    background-image: url("bg1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#skill{
+    background-color: #212121;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#project{
+    background-image: url("bg3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#qua{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    margin: 0%; 
+    padding: 0%;
+}
+
+a:link {
+    color: white; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* me page */
+body{
+    background-size: 100%;
+}
+
+#pro_pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 400px;
+}
+#p_name{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+#p_roll{
+    text-align: center;
+    color: white;
+}
+#p_opt{
+    text-align: center;
+    color: white;
+}
+#p_dept{
+    text-align: center;
+    color: white;
+}
+#about_btn{
+    color: white;
+    padding: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 45px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#per-data{
+    padding-left: 60%; 
+    color: white;
+    font-size: 1.5em;
+    margin: 50px;
+}
+
+#contact-data{
+    padding-left: 60%; 
+    color: white;
+    font-size: 1.5em;
+    margin: 50px;
+}
+
+#project-data{
+    padding-left: 15%; 
+    color: white;
+    font-size: 1.5em;
+    margin-top: 50px;
+    margin-bottom: 250px;
+}
+
+#head-project{
+    color: white;
+    padding-left:5%; 
+    padding-top:200px; 
+    margin: 0%;
+}
